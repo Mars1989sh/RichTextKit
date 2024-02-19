@@ -31,6 +31,7 @@
 		A9E50316283A23EE00BA5101 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9E50303283A23EE00BA5101 /* Assets.xcassets */; };
 		A9E50323283A245D00BA5101 /* RichTextKit in Frameworks */ = {isa = PBXBuildFile; productRef = A9E50322283A245D00BA5101 /* RichTextKit */; };
 		A9E50325283A246100BA5101 /* RichTextKit in Frameworks */ = {isa = PBXBuildFile; productRef = A9E50324283A246100BA5101 /* RichTextKit */; };
+		B074B0E32B83292400C9EC8E /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B074B0E22B83292400C9EC8E /* ImagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		A9E5030E283A23EE00BA5101 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9E50310283A23EE00BA5101 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		A9E50320283A240C00BA5101 /* richtextkit */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = richtextkit; path = ..; sourceTree = "<group>"; };
+		B074B0E22B83292400C9EC8E /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 				A9784697284D6A5800DF0CEA /* ContentView.swift */,
 				A978468F284D698700DF0CEA /* EditorScreen.swift */,
 				A97846A0284D728E00DF0CEA /* MainMenu.swift */,
+				B074B0E22B83292400C9EC8E /* ImagePicker.swift */,
 			);
 			path = iOS;
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 				A97846A2284D733200DF0CEA /* DemoUrl.swift in Sources */,
 				A9784686284D5C5700DF0CEA /* DemoScreen.swift in Sources */,
 				A9784698284D6A5800DF0CEA /* ContentView.swift in Sources */,
+				B074B0E32B83292400C9EC8E /* ImagePicker.swift in Sources */,
 				A97846A3284D736C00DF0CEA /* AboutScreen.swift in Sources */,
 				A9E50311283A23EE00BA5101 /* DemoApp.swift in Sources */,
 			);
@@ -415,7 +419,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Demo (iOS).entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = PMEDFW438U;
+				DEVELOPMENT_TEAM = 2STDV5X89Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -449,7 +453,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Demo (iOS).entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = PMEDFW438U;
+				DEVELOPMENT_TEAM = 2STDV5X89Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
